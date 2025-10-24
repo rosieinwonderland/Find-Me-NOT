@@ -3,20 +3,29 @@
 
 body {
   margin: 0;
-  background: radial-gradient(circle at center, #090013 0%, #000 100%);
-  color: #eae6ff;
   font-family: 'Orbitron', sans-serif;
-  background-image: url('assets/bg.png');
+  color: #eae6ff;
+  background-color: #0a0a0f;
+  background-image: url('assets/bg.png'), radial-gradient(circle at center, #090013 0%, #000 100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .container {
-  max-width: 800px;
-  margin: auto;
-  padding: 2rem;
-  backdrop-filter: blur(10px);
+  max-width: 500px;
+  width: 90%;
+  background: rgba(20, 20, 25, 0.85);
+  border: 1px solid #8000ff;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 25px #c000ff55, 0 0 50px #8000ff22;
+  backdrop-filter: blur(8px);
 }
 
 header {
@@ -27,18 +36,20 @@ header {
 .logo {
   width: 80px;
   opacity: 0.9;
+  margin-bottom: 0.5rem;
 }
 
 h1 {
-  color: #b76fff;
-  font-size: 2.5rem;
-  margin: 0.5rem 0;
-  text-shadow: 0 0 10px #b76fff;
+  color: #e600ff;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 10px #ff00ff55;
 }
 
 .tagline {
-  color: #a77aff;
-  font-size: 1rem;
+  color: #b0a0b0;
+  font-size: 0.9rem;
   margin-bottom: 2rem;
 }
 
@@ -49,13 +60,13 @@ h1 {
   padding: 1rem;
   margin-bottom: 2rem;
   box-shadow: 0 0 15px rgba(184, 0, 255, 0.3);
+  text-align: left;
 }
 
 textarea, input {
   width: 100%;
   padding: 0.8rem;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin: 0.5rem 0 1rem 0;
   background: #0b0118;
   border: 1px solid #7027d0;
   color: #e6e6f2;
@@ -90,8 +101,8 @@ textarea:focus, input:focus {
 
 .status {
   font-size: 0.9rem;
-  margin-top: -0.5rem;
   min-height: 1.2rem;
+  margin-top: -0.5rem;
 }
 
 footer {
@@ -99,87 +110,4 @@ footer {
   font-size: 0.8rem;
   color: #7e6adf;
   margin-top: 2rem;
-}
-/* Cyberpunk Theme: Purple, Pink, Black, and Greys */
-
-body {
-  background-color: #0a0a0f;
-  background-image: radial-gradient(circle at top, #1a1a1f 0%, #050507 100%);
-  color: #ccc;
-  font-family: 'Orbitron', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
-}
-
-.container {
-  background: rgba(20, 20, 25, 0.8);
-  border: 1px solid #8000ff;
-  box-shadow: 0 0 25px #c000ff55, 0 0 50px #8000ff22;
-  border-radius: 15px;
-  padding: 30px;
-  width: 400px;
-  max-width: 90%;
-  text-align: center;
-}
-
-h1 {
-  color: #e600ff;
-  font-size: 2rem;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
-}
-
-.subtitle {
-  color: #b0a0b0;
-  font-size: 0.9rem;
-  margin-bottom: 20px;
-}
-
-textarea, input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  margin: 8px 0;
-  background-color: #111;
-  color: #fff;
-  border: 1px solid #8000ff;
-  border-radius: 8px;
-  outline: none;
-  resize: none;
-}
-
-textarea:focus, input[type="password"]:focus {
-  box-shadow: 0 0 10px #ff00ff;
-  border-color: #ff00ff;
-}
-
-.buttons {
-  display: flex;
-  justify-content: space-between;
-  margin: 10px 0;
-}
-
-button {
-  background-color: #8000ff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  flex: 1;
-  margin: 0 5px;
-}
-
-button:hover {
-  background-color: #ff00ff;
-  box-shadow: 0 0 15px #ff00ff99;
-}
-
-.note {
-  color: #888;
-  font-size: 0.8rem;
-  margin-top: 15px;
 }
