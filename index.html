@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find Me Not</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="assets/logo.svg" alt="Find Me Not Logo" class="logo" />
+      <h1>Find Me Not</h1>
+      <p class="tagline">Encrypt. Decrypt. Disappear.</p>
+    </header>
+
+    <main>
+      <section class="box">
+        <h2>Encrypt Text</h2>
+        <textarea id="plaintext" placeholder="Type your secret message..."></textarea>
+        <input id="key" type="password" placeholder="Enter encryption key" />
+        <button id="encryptBtn" class="neon-btn">Encrypt</button>
+        <div id="encStatus" class="status"></div>
+      </section>
+
+      <section class="box">
+        <h2>Encrypted Output</h2>
+        <textarea id="cipher" placeholder="Encrypted result appears here..."></textarea>
+      </section>
+
+      <section class="box">
+        <h2>Decrypt Text</h2>
+        <textarea id="decrypted" placeholder="Decrypted text appears here..." readonly></textarea>
+        <input id="key2" type="password" placeholder="Enter key to decrypt" />
+        <button id="decryptBtn" class="neon-btn">Decrypt</button>
+        <div id="decStatus" class="status"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Find Me Not © 2025 | All encryption handled locally in your browser.</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find Me Not</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>FIND ME NOT</h1>
+    <p class="subtitle">Encrypt and decrypt text securely using your private key.</p>
+
+    <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+
+    <input type="password" id="password" placeholder="Enter password/key" />
+
+    <div class="buttons">
+      <button id="encryptBtn">Encrypt</button>
+      <button id="decryptBtn">Decrypt</button>
+    </div>
+
+    <textarea id="outputText" placeholder="Output will appear here..." readonly></textarea>
+
+    <p class="note">All encryption happens locally. Your data never leaves your device.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

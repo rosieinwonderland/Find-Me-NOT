@@ -1,0 +1,185 @@
+/* Cyberpunk Dark Neon Theme */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at center, #090013 0%, #000 100%);
+  color: #eae6ff;
+  font-family: 'Orbitron', sans-serif;
+  background-image: url('assets/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 80px;
+  opacity: 0.9;
+}
+
+h1 {
+  color: #b76fff;
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  text-shadow: 0 0 10px #b76fff;
+}
+
+.tagline {
+  color: #a77aff;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.box {
+  background: rgba(25, 5, 45, 0.6);
+  border: 1px solid #8c4bff;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 15px rgba(184, 0, 255, 0.3);
+}
+
+textarea, input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background: #0b0118;
+  border: 1px solid #7027d0;
+  color: #e6e6f2;
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  resize: none;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+  border-color: #c480ff;
+  box-shadow: 0 0 10px #a055ff;
+}
+
+.neon-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #6f2aff, #9c27ff);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  text-shadow: 0 0 5px #fff;
+  transition: 0.3s;
+}
+
+.neon-btn:hover {
+  background: linear-gradient(90deg, #9c27ff, #d32eff);
+  box-shadow: 0 0 15px #d32eff;
+}
+
+.status {
+  font-size: 0.9rem;
+  margin-top: -0.5rem;
+  min-height: 1.2rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #7e6adf;
+  margin-top: 2rem;
+}
+/* Cyberpunk Theme: Purple, Pink, Black, and Greys */
+
+body {
+  background-color: #0a0a0f;
+  background-image: radial-gradient(circle at top, #1a1a1f 0%, #050507 100%);
+  color: #ccc;
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(20, 20, 25, 0.8);
+  border: 1px solid #8000ff;
+  box-shadow: 0 0 25px #c000ff55, 0 0 50px #8000ff22;
+  border-radius: 15px;
+  padding: 30px;
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+}
+
+h1 {
+  color: #e600ff;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #b0a0b0;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+textarea, input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #8000ff;
+  border-radius: 8px;
+  outline: none;
+  resize: none;
+}
+
+textarea:focus, input[type="password"]:focus {
+  box-shadow: 0 0 10px #ff00ff;
+  border-color: #ff00ff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #8000ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex: 1;
+  margin: 0 5px;
+}
+
+button:hover {
+  background-color: #ff00ff;
+  box-shadow: 0 0 15px #ff00ff99;
+}
+
+.note {
+  color: #888;
+  font-size: 0.8rem;
+  margin-top: 15px;
+}
